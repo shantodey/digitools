@@ -1,6 +1,6 @@
 [
   {
-    "id": "prod_001",
+    "id": "1",
     "name": "Starter Plan",
     "description": "Perfect for individuals and freelancers getting started with professional tools.",
     "price": 0,
@@ -16,7 +16,7 @@
     "icon": "🚀"
   },
   {
-    "id": "prod_002",
+    "id": "2",
     "name": "Resume Builder Pro",
     "description": "AI-powered resume builder with ATS optimization and professional templates.",
     "price": 9.99,
@@ -33,7 +33,7 @@
     "icon": "📄"
   },
   {
-    "id": "prod_003",
+    "id": "3",
     "name": "Design Suite",
     "description": "Full-featured design toolkit for UI/UX professionals and creative teams.",
     "price": 19.99,
@@ -51,7 +51,7 @@
     "icon": "🎨"
   },
   {
-    "id": "prod_004",
+    "id": "4",
     "name": "Analytics Dashboard",
     "description": "Real-time business analytics with custom reports and data visualization.",
     "price": 29.99,
@@ -68,7 +68,7 @@
     "icon": "📊"
   },
   {
-    "id": "prod_005",
+    "id": "5",
     "name": "Team Workspace",
     "description": "Collaborative workspace for teams of up to 25 members with admin controls.",
     "price": 49.99,
@@ -86,7 +86,7 @@
     "icon": "👥"
   },
   {
-    "id": "prod_006",
+    "id": "6",
     "name": "Annual Pro Bundle",
     "description": "Get all Pro features for a full year at a heavily discounted rate.",
     "price": 99.99,
@@ -103,7 +103,7 @@
     "icon": "⭐"
   },
   {
-    "id": "prod_007",
+    "id": "7",
     "name": "AI Writing Assistant",
     "description": "Generate, edit, and polish content with an advanced AI writing co-pilot.",
     "price": 14.99,
@@ -120,7 +120,7 @@
     "icon": "✍️"
   },
   {
-    "id": "prod_008",
+    "id": "8",
     "name": "Enterprise Plan",
     "description": "Scalable enterprise solution with dedicated infrastructure and custom integrations.",
     "price": 299.99,

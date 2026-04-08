@@ -20,7 +20,7 @@ const Navbar = () => {
                                 <li><a>FAQ</a></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl">DigiTols</a>
+                        <a className="btn btn-ghost text-xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">DigiTols</a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
@@ -33,7 +33,7 @@ const Navbar = () => {
                     </div>
                     <div className="navbar-end">
                         <p>login</p>
-                        <a className="btn">Get Started</a>
+                        <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started</button>
                     </div>
                 </div>
             </div>
