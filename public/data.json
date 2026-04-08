@@ -1,0 +1,141 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Starter Plan",
+    "description": "Perfect for individuals and freelancers getting started with professional tools.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "new",
+    "features": [
+      "5 projects",
+      "1 GB storage",
+      "Basic analytics",
+      "Email support"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": "prod_002",
+    "name": "Resume Builder Pro",
+    "description": "AI-powered resume builder with ATS optimization and professional templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter generator",
+      "LinkedIn sync"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": "prod_003",
+    "name": "Design Suite",
+    "description": "Full-featured design toolkit for UI/UX professionals and creative teams.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "Unlimited projects",
+      "50+ design assets",
+      "Team collaboration",
+      "Version history",
+      "Priority support",
+      "Cloud sync"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": "prod_004",
+    "name": "Analytics Dashboard",
+    "description": "Real-time business analytics with custom reports and data visualization.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": [
+      "Real-time data",
+      "Custom dashboards",
+      "CSV/Excel export",
+      "API access",
+      "Unlimited reports"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": "prod_005",
+    "name": "Team Workspace",
+    "description": "Collaborative workspace for teams of up to 25 members with admin controls.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Up to 25 members",
+      "Role-based access",
+      "Shared asset library",
+      "Activity logs",
+      "SSO support",
+      "SLA guarantee"
+    ],
+    "icon": "👥"
+  },
+  {
+    "id": "prod_006",
+    "name": "Annual Pro Bundle",
+    "description": "Get all Pro features for a full year at a heavily discounted rate.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "Sale",
+    "tagType": "sale",
+    "features": [
+      "All Pro features",
+      "2 months free",
+      "Dedicated account manager",
+      "Early access to beta features",
+      "Custom branding"
+    ],
+    "icon": "⭐"
+  },
+  {
+    "id": "prod_007",
+    "name": "AI Writing Assistant",
+    "description": "Generate, edit, and polish content with an advanced AI writing co-pilot.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "GPT-4 powered",
+      "Grammar & tone checks",
+      "Plagiarism detector",
+      "50+ writing modes",
+      "Browser extension"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": "prod_008",
+    "name": "Enterprise Plan",
+    "description": "Scalable enterprise solution with dedicated infrastructure and custom integrations.",
+    "price": 299.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "Unlimited users",
+      "Custom integrations",
+      "On-premise deployment",
+      "24/7 dedicated support",
+      "HIPAA & SOC2 compliant",
+      "SLA 99.99%",
+      "Onboarding specialist"
+    ],
+    "icon": "🏢"
+  }
+]
