@@ -1,106 +1,93 @@
 [
   {
     "id": "1",
-    "name": "Starter Plan",
-    "description": "Perfect for individuals and freelancers getting started with professional tools.",
-    "price": 0,
-    "period": "one-time",
-    "tag": "Free",
-    "tagType": "new",
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
     "features": [
-      "5 projects",
-      "1 GB storage",
-      "Basic analytics",
-      "Email support"
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker",
+      "SEO-optimized output"
     ],
-    "icon": "🚀"
+    "icon": "✍️"
   },
   {
     "id": "2",
-    "name": "Resume Builder Pro",
-    "description": "AI-powered resume builder with ATS optimization and professional templates.",
-    "price": 9.99,
-    "period": "monthly",
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
     "tag": "Popular",
-    "tagType": "popular",
     "features": [
-      "100+ templates",
-      "ATS optimization",
-      "Export to PDF",
-      "Cover letter generator",
-      "LinkedIn sync"
-    ],
-    "icon": "📄"
-  },
-  {
-    "id": "3",
-    "name": "Design Suite",
-    "description": "Full-featured design toolkit for UI/UX professionals and creative teams.",
-    "price": 19.99,
-    "period": "monthly",
-    "tag": "Best Seller",
-    "tagType": "bestseller",
-    "features": [
-      "Unlimited projects",
-      "50+ design assets",
-      "Team collaboration",
-      "Version history",
-      "Priority support",
-      "Cloud sync"
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license",
+      "Figma and Sketch files"
     ],
     "icon": "🎨"
   },
   {
-    "id": "4",
-    "name": "Analytics Dashboard",
-    "description": "Real-time business analytics with custom reports and data visualization.",
-    "price": 29.99,
+    "id": "3",
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
     "period": "monthly",
-    "tag": "Trending",
-    "tagType": "trending",
+    "tag": "New",
     "features": [
-      "Real-time data",
-      "Custom dashboards",
-      "CSV/Excel export",
-      "API access",
-      "Unlimited reports"
+      "100+ assets",
+      "Commercial use",
+      "No attribution required",
+      "Unlimited downloads"
     ],
-    "icon": "📊"
+    "icon": "🖼️"
+  },
+  {
+    "id": "4",
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful automation.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows",
+      "Instant triggers"
+    ],
+    "icon": "⚙️"
   },
   {
     "id": "5",
-    "name": "Team Workspace",
-    "description": "Collaborative workspace for teams of up to 25 members with admin controls.",
-    "price": 49.99,
-    "period": "monthly",
-    "tag": "Popular",
-    "tagType": "popular",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
     "features": [
-      "Up to 25 members",
-      "Role-based access",
-      "Shared asset library",
-      "Activity logs",
-      "SSO support",
-      "SLA guarantee"
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Expert review tips"
     ],
-    "icon": "👥"
+    "icon": "📄"
   },
   {
     "id": "6",
-    "name": "Annual Pro Bundle",
-    "description": "Get all Pro features for a full year at a heavily discounted rate.",
-    "price": 99.99,
-    "period": "yearly",
-    "tag": "Sale",
-    "tagType": "sale",
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
     "features": [
-      "All Pro features",
-      "2 months free",
-      "Dedicated account manager",
-      "Early access to beta features",
-      "Custom branding"
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard",
+      "Post templates"
     ],
-    "icon": "⭐"
+    "icon": "📱"
   },
   {
     "id": "7",

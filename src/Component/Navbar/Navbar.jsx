@@ -22,18 +22,18 @@ const Navbar = ({ cats }) => {
                                     <li><a>FAQ</a></li>
                                 </ul>
                             </div>
-                            <a className="bg-custom-gradient text-transparent bg-clip-text text-2xl md:text-3xl font-extrabold py-1 select-none">DigiTols</a>
+                            <a className="bg-custom-gradient text-transparent bg-clip-text text-2xl md:text-3xl font-extrabold py-1 select-none">DigiTools</a>
                         </div>
                         <div className="navbar-center hidden lg:flex">
-                            <ul className="menu menu-horizontal px-1">
-                                <li><a className='font-medium text-base'>Products</a></li>
-                                <li><a className='font-medium text-base'>Features</a></li>
-                                <li><a className='font-medium text-base'>Pricing</a></li>
-                                <li><a className='font-medium text-base'>Testimonials</a></li>
-                                <li><a className='font-medium text-base'>FAQ</a></li>
+                            <ul className="menu menu-horizontal px-1 space-x-6">
+                                <li><a className='font-medium text-base text-[#475569] hover:text-[#4F39F6] transition'>Products</a></li>
+                                <li><a className='font-medium text-base text-[#475569] hover:text-[#4F39F6] transition'>Features</a></li>
+                                <li><a className='font-medium text-base text-[#475569] hover:text-[#4F39F6] transition'>Pricing</a></li>
+                                <li><a className='font-medium text-base text-[#475569] hover:text-[#4F39F6] transition'>Testimonials</a></li>
+                                <li><a className='font-medium text-base text-[#475569] hover:text-[#4F39F6] transition'>FAQ</a></li>
                             </ul>
                         </div>
-                        <div className="navbar-end">
+                        <div className="navbar-end gap-3 hidden md:flex items-center">
                             <a className="relative">
                                 <ShoppingCart />
                                 <span className="absolute -top-4 -right-2 text-xs w-5 h-5 rounded-full flex items-center justify-center">{cats.length===0 ? '':cats.length }</span>
