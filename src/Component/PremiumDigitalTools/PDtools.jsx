@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ProdectCards from './ProdectCards/ProdectCards'
-import ShoppingCard from './ShoppingCard/ShoppingCard';
+import ShoppingCards from './ShoppingCards/ShoppingCards';
 
 const PDtools = ({getProductsData,cats,setCats }) => {
     const [selectButton,selectedButton]=useState('Products')
@@ -18,7 +18,7 @@ const PDtools = ({getProductsData,cats,setCats }) => {
                 {selectButton==="Products"?
                     <ProdectCards getProductsData ={getProductsData} setCats={setCats} cats={cats} />
                     :
-                    <ShoppingCard  setCats={setCats} cats={cats}/>
+                    <ShoppingCards setCats={setCats} cats={cats}/>
                 }
             </div>
         </div>

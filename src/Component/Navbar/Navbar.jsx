@@ -1,9 +1,10 @@
+import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 
-const Navbar = ({cats}) => {
+const Navbar = ({ cats }) => {
     return (
         <>
-            <div className="container mx-auto">
+            <div className="container mx-auto sticky top-0 z-50">
                 <div className="navbar bg-base-100 shadow-sm py-7">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -20,11 +21,11 @@ const Navbar = ({cats}) => {
                                 <li><a>FAQ</a></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">DigiTols</a>
+                        <a className="btn btn-ghost text-xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]">DigiTols</a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                            <li><a>Products</a></li>
+                            <li><a className=''>Products</a></li>
                             <li><a>Features</a></li>
                             <li><a>Pricing</a></li>
                             <li><a>Testimonials</a></li>
@@ -32,9 +33,11 @@ const Navbar = ({cats}) => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <p>shoping card</p>
-                        <span className='text-3xl mx-14' >{cats.length}</span>
-                        <p>login</p>
+                        <div className="relative">
+                            <ShoppingCart />
+                            <span className="absolute -top-2 -right-2 text-xs w-5 h-5 rounded-full flex items-center justify-center">{cats.length}</span>
+                        </div>
+                        <p className='px-4'>login</p>
                         <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started</button>
                     </div>
                 </div>
