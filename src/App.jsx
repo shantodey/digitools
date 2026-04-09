@@ -1,4 +1,4 @@
-import { ToastContainer } from "react-toastify/unstyled"
+import { ToastContainer } from "react-toastify"
 import Navbar from "./Component/Navbar/Navbar"
 import Hero from "./Component/Hero/Hero"
 import Counter from "./Component/Counter/Counter"
@@ -35,6 +35,7 @@ function App() {
       <SimpleTransparent />
       <ReadytoTransform />
       <Footer />
+      <ToastContainer />
       <ToastContainer />
     </>
   )

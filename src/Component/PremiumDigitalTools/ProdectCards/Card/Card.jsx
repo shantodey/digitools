@@ -1,13 +1,17 @@
 import { Check } from 'lucide-react';
-import React from 'react';
+import { toast } from 'react-toastify';
 
 const Card = ({ prodectsData, setCats, cats }) => {
     const existsCart = cats.find(i => i.id === prodectsData.id)
+    const addToCartWithNotification = (item) => {
+        addTocart(item);
+        notify();
+    }
     const addTocart = (item) => {
         setCats(prev => [...prev, item])
 
     }
-
+    const notify = () => toast(" Add it to Cart");
     return (
         <div className="card p-4 rounded-md shadow relative min-h-95">
             <div className="absolute top-3 right-3 badge badge-warning badge-sm">
@@ -31,12 +35,12 @@ const Card = ({ prodectsData, setCats, cats }) => {
 
             <div className="space-y-3 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                    <span><Check color="#2fc685"/></span>
+                    <span><Check color="#2fc685" /></span>
                     <span>{prodectsData.features[1]}</span>
                 </div>
 
                 <div className="flex items-center gap-2 text-sm">
-                    <span><Check color="#2fc685"/></span>
+                    <span><Check color="#2fc685" /></span>
                     <span>{prodectsData.features[2]}</span>
                 </div>
 
@@ -46,8 +50,8 @@ const Card = ({ prodectsData, setCats, cats }) => {
                 </div>
             </div>
 
-            <button disabled={existsCart} onClick={() => addTocart(prodectsData)} className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-full">
-                {existsCart ? "Bought" : "Buy Now" }
+            <button disabled={existsCart}  onClick={() => addToCartWithNotification(prodectsData)}  className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-full">
+                {existsCart ? "Bought" : "Buy Now"}
             </button>
         </div>
 

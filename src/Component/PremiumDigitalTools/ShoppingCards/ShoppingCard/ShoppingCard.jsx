@@ -1,6 +1,8 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const ShoppingCard = ({ items, handleRemoveItem }) => {
+        const notify = () => toast(" Remove from cart");
     return (
         <div className="flex items-center justify-between bg-[#f9fafc] rounded-2xl px-5 py-4">
             <div className="flex items-center gap-4">
@@ -11,7 +13,7 @@ const ShoppingCard = ({ items, handleRemoveItem }) => {
                 </div>
             </div>
             <button 
-                onClick={() => handleRemoveItem(items.id)}
+                onClick={() => {handleRemoveItem(items.id);notify()}}
                 className="text-pink-500 font-medium text-sm"
             >
                 Remove
