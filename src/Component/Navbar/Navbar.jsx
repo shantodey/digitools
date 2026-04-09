@@ -22,7 +22,7 @@ const Navbar = ({ cats }) => {
                                     <li><a>FAQ</a></li>
                                 </ul>
                             </div>
-                            <a className="btn btn-ghost text-5xl text-[#6D28FF]">DigiTols</a>
+                            <a className="bg-custom-gradient text-transparent bg-clip-text text-2xl md:text-3xl font-extrabold py-1 select-none">DigiTols</a>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal px-1">

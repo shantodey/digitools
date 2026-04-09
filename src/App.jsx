@@ -7,6 +7,7 @@ import { Suspense, useState } from "react"
 import GetStart from "./Component/GetStart/GetStart"
 import SimpleTransparent from "./Component/SimpleTransparent/SimpleTransparent"
 import Footer from "./Component/Footer/Footer"
+import ReadytoTransform from "./Component/ReadytoTransform/ReadytoTransform"
 
 const getProdects = async () => {
   const res = await fetch("/public/data.json");
@@ -28,6 +29,7 @@ function App() {
       </Suspense>
       <GetStart/>
       <SimpleTransparent/>
+      <ReadytoTransform/>
       <Footer/>
       <ToastContainer />
     </>

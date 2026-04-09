@@ -1,3 +1,4 @@
+import { Check } from 'lucide-react';
 import React from 'react';
 
 const Card = ({ prodectsData, setCats, cats }) => {
@@ -14,7 +15,7 @@ const Card = ({ prodectsData, setCats, cats }) => {
             </div>
 
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-base-200 mb-4 text-xl">
-                ✍️
+                {prodectsData.icon}
             </div>
 
             <h2 className="text-2xl font-bold mb-2">{prodectsData.name}</h2>
@@ -30,17 +31,17 @@ const Card = ({ prodectsData, setCats, cats }) => {
 
             <div className="space-y-3 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                    <span>✅</span>
+                    <span><Check color="#2fc685"/></span>
                     <span>{prodectsData.features[1]}</span>
                 </div>
 
                 <div className="flex items-center gap-2 text-sm">
-                    <span>✅</span>
+                    <span><Check color="#2fc685"/></span>
                     <span>{prodectsData.features[2]}</span>
                 </div>
 
                 <div className="flex items-center gap-2 text-sm">
-                    <span>✅</span>
+                    <span><Check color="#2fc685" /></span>
                     <span>{prodectsData.features[3]}</span>
                 </div>
             </div>
