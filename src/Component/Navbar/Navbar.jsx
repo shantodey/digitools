@@ -33,10 +33,11 @@ const Navbar = ({ cats }) => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <div className="relative">
+                        
+                        <a className="relative">
                             <ShoppingCart />
                             <span className="absolute -top-2 -right-2 text-xs w-5 h-5 rounded-full flex items-center justify-center">{cats.length}</span>
-                        </div>
+                        </a>
                         <p className='px-4'>login</p>
                         <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started</button>
                     </div>

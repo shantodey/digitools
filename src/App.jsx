@@ -4,6 +4,7 @@ import Hero from "./Component/Hero/Hero"
 import Counter from "./Component/Counter/Counter"
 import PDtools from "./Component/PremiumDigitalTools/PDtools"
 import { Suspense, useState } from "react"
+import GetStart from "./Component/GetStart/GetStart"
 
 const getProdects = async () => {
   const res = await fetch("/public/data.json");
@@ -23,7 +24,7 @@ function App() {
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
         <PDtools getProductsData ={getProductsData} cats={cats} setCats={setCats}/>
       </Suspense>
-      
+      <GetStart/>
       <ToastContainer />
     </>
   )
