@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({cats}) => {
     return (
         <>
             <div className="container mx-auto">
@@ -32,8 +32,10 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
+                        <p>shoping card</p>
+                        <span className='text-3xl mx-14' >{cats.length}</span>
                         <p>login</p>
-                        <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started</button>
+                        <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started</button>
                     </div>
                 </div>
             </div>

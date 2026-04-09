@@ -3,7 +3,7 @@ import Navbar from "./Component/Navbar/Navbar"
 import Hero from "./Component/Hero/Hero"
 import Counter from "./Component/Counter/Counter"
 import PDtools from "./Component/PremiumDigitalTools/PDtools"
-import { Suspense } from "react"
+import { Suspense, useState } from "react"
 
 const getProdects = async () => {
   const res = await fetch("/public/data.json");
@@ -11,15 +11,17 @@ const getProdects = async () => {
 }
 const getProductsData=getProdects()
 
+
 console.log(getProductsData);
 function App() {
+  const [cats, setCats]=useState([])
   return (
     <>
-      <Navbar/>
+      <Navbar cats={cats}/>
       <Hero/>
       <Counter/>
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-        <PDtools getProductsData ={getProductsData}/>
+        <PDtools getProductsData ={getProductsData} cats={cats} setCats={setCats}/>
       </Suspense>
       
       <ToastContainer />
