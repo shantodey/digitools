@@ -39,7 +39,7 @@ const Navbar = ({ cats }) => {
                                 <span className="absolute -top-4 -right-2 text-xs w-5 h-5 rounded-full flex items-center justify-center">{cats.length===0 ? '':cats.length }</span>
                             </a>
                             <p className='px-4 font-medium text-base'>login</p>
-                            <button className="btn className='font-medium text-base' bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started</button>
+                            <button className="text-white px-4 py-3  font-semibold bg-custom-gradient  rounded-full overflow-hidden  w-fit cursor-pointer group hover:-translate-y-1 transition-all duration-200 hover:shadow ">Get Started</button>
                         </div>
                     </div>
                 </div>

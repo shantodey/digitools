@@ -13,24 +13,28 @@ const getProdects = async () => {
   const res = await fetch("/public/data.json");
   return res.json();
 }
-const getProductsData=getProdects()
+const getProductsData = getProdects()
 
 
 console.log(getProductsData);
 function App() {
-  const [cats, setCats]=useState([])
+  const [cats, setCats] = useState([]);
+  const handleRemoveItem = (idToRemove) => {
+    setCats(prevCats => prevCats.filter(item => item.id !== idToRemove));
+  };
+
   return (
     <>
-      <Navbar cats={cats}/>
-      <Hero/>
-      <Counter/>
+      <Navbar cats={cats} />
+      <Hero />
+      <Counter />
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-        <PDtools getProductsData ={getProductsData} cats={cats} setCats={setCats}/>
+        <PDtools getProductsData={getProductsData} cats={cats} setCats={setCats} handleRemoveItem={handleRemoveItem} />
       </Suspense>
-      <GetStart/>
-      <SimpleTransparent/>
-      <ReadytoTransform/>
-      <Footer/>
+      <GetStart />
+      <SimpleTransparent />
+      <ReadytoTransform />
+      <Footer />
       <ToastContainer />
     </>
   )

@@ -9,7 +9,7 @@ const Card = ({ prodectsData, setCats, cats }) => {
     }
 
     return (
-        <div className="w-[380px] h-[422px] border border-blue-500 rounded-xl p-4 relative bg-white">
+        <div className="card p-4 rounded-md shadow relative min-h-95">
             <div className="absolute top-3 right-3 badge badge-warning badge-sm">
                 {prodectsData.tag}
             </div>

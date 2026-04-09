@@ -4,7 +4,7 @@ import Card from '../ProdectCards/Card/Card'
 const Cards = ({ getProductsData,cats,setCats  }) => {
     const receveData=use(getProductsData)
     return (
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3">
             {receveData.map((prodectsData) => (
                 <Card 
                     key={prodectsData.id}

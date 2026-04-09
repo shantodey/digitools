@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProdectCards from './ProdectCards/ProdectCards'
 import ShoppingCards from './ShoppingCards/ShoppingCards';
 
-const PDtools = ({getProductsData,cats,setCats }) => {
+const PDtools = ({getProductsData,cats,setCats,handleRemoveItem }) => {
     const [selectButton,selectedButton]=useState('Products')
     return (
         <div className='py-28'>
@@ -22,7 +22,7 @@ const PDtools = ({getProductsData,cats,setCats }) => {
                 {selectButton==="Products"?
                     <ProdectCards getProductsData ={getProductsData} setCats={setCats} cats={cats} />
                     :
-                    <ShoppingCards setCats={setCats} cats={cats}/>
+                    <ShoppingCards setCats={setCats} cats={cats} handleRemoveItem={handleRemoveItem}/>
                 }
             </div>
         </div>
