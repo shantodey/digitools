@@ -10,7 +10,7 @@ import Footer from "./Component/Footer/Footer"
 import ReadytoTransform from "./Component/ReadytoTransform/ReadytoTransform"
 
 const getProdects = async () => {
-  const res = await fetch("/public/data.json");
+  const res = await fetch("/data.json");
   return res.json();
 }
 const getProductsData = getProdects()
