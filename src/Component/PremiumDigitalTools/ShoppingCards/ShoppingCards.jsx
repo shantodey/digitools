@@ -2,7 +2,7 @@ import React from 'react';
 import ShoppingCard from './ShoppingCard/ShoppingCard';
 import EmptyShoppincCard from './EmptyShoppincCard/EmptyShoppincCard';
 
-const ShoppingCards = ({ cats, handleRemoveItem }) => {
+const ShoppingCards = ({ setCats,cats, handleRemoveItem }) => {
     const totalPrice = cats.reduce((total, item) => total + (item.price || 0), 0);
     return (
         <div className="bg-base-100 rounded-2xl p-6 flex flex-col gap-4">
@@ -30,7 +30,7 @@ const ShoppingCards = ({ cats, handleRemoveItem }) => {
                                 </span>
                             </div>
 
-                            <button
+                            <button onClick={()=>setCats([])}
                                 className="btn border-none text-white w-full rounded-full"
                                 style={{ background: "linear-gradient(to right, #4F39F6, #9514FA)" }}
                             >

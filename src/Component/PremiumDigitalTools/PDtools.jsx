@@ -17,7 +17,7 @@ const PDtools = ({getProductsData,cats,setCats,handleRemoveItem }) => {
                          "flex-1  rounded-full  font-semibold py-2 bg-transparent text-[#25065D] cursor-pointer"} `}>Products</button>
                     <button onClick={()=>selectedButton("Card")}  className={`btn 
                         ${selectButton === "Card" ? "flex-1  rounded-full  font-semibold py-2 bg-custom-gradient text-white cursor-pointer" :
-                         "flex-1  rounded-full  font-semibold py-2 bg-transparent text-[#25065D] cursor-pointer"} `}>Card{cats.length===0 ? '':cats.length }</button>
+                         "flex-1  rounded-full  font-semibold py-2 bg-transparent text-[#25065D] cursor-pointer"} `}>Card{cats.length===0 ? '':`(${cats.length})` }</button>
                 </div>
                 {selectButton==="Products"?
                     <ProdectCards getProductsData ={getProductsData} setCats={setCats} cats={cats} />
