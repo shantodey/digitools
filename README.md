@@ -1,16 +1,14 @@
-# React + Vite
+DigiTools
+A single-page React application built as Assignment 6 for Programming Hero. DigiTools is a premium digital marketplace where users can browse, add, and manage digital tools — all in one clean interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack
+React Vite TailwindCSS DaisyUI React Toastify
 
-Currently, two official plugins are available:
+Features
+Add to Cart — Browse premium digital tools and add them to your cart instantly with a single click.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Remove from Cart — Changed your mind? Remove any item from the cart anytime without any hassle.
 
-## React Compiler
+Toast Notifications — Every action gives you instant feedback through clean, non-intrusive toast alerts powered by React Toastify.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Assignment 6 — Programming Hero | Shanto Chandra Dey

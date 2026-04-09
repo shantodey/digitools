@@ -13,7 +13,7 @@ const PDtools = ({getProductsData,cats,setCats }) => {
                 </div>
                 <div className="togolebutton pt-3.5 pb-5 text-center">
                     <button onClick={()=>selectedButton("Products")}  class="btn btn-outline">Products</button>
-                    <button onClick={()=>selectedButton("Card")}  class="btn btn-outline">Card(2)</button>
+                    <button onClick={()=>selectedButton("Card")}  class="btn btn-outline">Card{cats.length===0 ? '':cats.length }</button>
                 </div>
                 {selectButton==="Products"?
                     <ProdectCards getProductsData ={getProductsData} setCats={setCats} cats={cats} />

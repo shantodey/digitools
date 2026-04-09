@@ -5,6 +5,8 @@ import Counter from "./Component/Counter/Counter"
 import PDtools from "./Component/PremiumDigitalTools/PDtools"
 import { Suspense, useState } from "react"
 import GetStart from "./Component/GetStart/GetStart"
+import SimpleTransparent from "./Component/SimpleTransparent/SimpleTransparent"
+import Footer from "./Component/Footer/Footer"
 
 const getProdects = async () => {
   const res = await fetch("/public/data.json");
@@ -25,6 +27,8 @@ function App() {
         <PDtools getProductsData ={getProductsData} cats={cats} setCats={setCats}/>
       </Suspense>
       <GetStart/>
+      <SimpleTransparent/>
+      <Footer/>
       <ToastContainer />
     </>
   )
